@@ -1,4 +1,4 @@
 apiVersion: v1
 kind: Namespace
 metadata:
-  name: naka # Write your name
+  name: sample-app # Write your name

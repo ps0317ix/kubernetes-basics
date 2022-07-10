@@ -36,7 +36,7 @@ Notice: `StatefulSet` is more preferable resource to manage database application
     Create base yaml file:
 
     ```
-    kubectl create deploy mysql --image=mysql:5.7 --dry-run=client -o yaml > mysql-deployment.yaml
+    kubectl create deploy mysql --image=mysql:8.0 --dry-run=client -o yaml > mysql-deployment.yaml
     ```
 
     Add required `env`:
